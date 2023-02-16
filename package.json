@@ -1,0 +1,28 @@
+{
+  "name": "subnet-picker",
+  "version": "0.1.0",
+  "description": "Subnet CIDR picker for particular hosts from given CIDR",
+  "main": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnutmath/subnet-picker.git"
+  },
+  "keywords": [
+    "subnet",
+    "cidr",
+    "ip"
+  ],
+  "author": "Abhay (pnutmath)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/pnutmath/subnet-picker/issues"
+  },
+  "homepage": "https://github.com/pnutmath/subnet-picker#readme"
+}

@@ -1,10 +1,4 @@
-# subnet-picker
-Subnet CIDR picker for particular hosts from given CIDR
-
-
-## Example
-````javascript
-import { SubnetPicker }  from "subnet-picker"
+import { SubnetPicker } from "../lib/index.js"
 const subnetPicker = new SubnetPicker("10.10.0.0/16");
 const outputs = [];
 
@@ -18,4 +12,3 @@ outputs.push(subnetPicker.pick(1022));
 outputs.push(subnetPicker.pick(1022));
 
 console.log(outputs);
-````
